@@ -7,11 +7,13 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test:all": "testcafe chrome:headless,firefox,ie src/__tests__/*.ts",
-    "test:chrome": "testcafe chrome src/__tests__/*.ts",
-    "test:chrome:headless": "testcafe chrome:headless src/__tests__/*.ts",
-    "test:firefox": "testcafe firefox src/__tests__/*.ts",
-    "test:ie": "testcafe ie src/__tests__/*.ts"
+    "test:all": "testcafe chrome:headless,firefox,ie,safari src/fixtures/*.ts",
+    "test:chrome": "testcafe chrome src/fixtures/*.ts",
+    "test:chrome:headless": "testcafe chrome:headless src/fixtures/*.ts",
+    "test:firefox": "testcafe firefox src/fixtures/*.ts",
+    "test:ie": "testcafe ie src/fixtures/*.ts",
+    "test:safari": "testcafe safari src/fixtures/*.ts",
+    "test:chrome:emulation": "testcafe chrome:emulation:device=pixel 2 src/fixtures/*.ts"
   },
   "dependencies": {
     "@testing-library/testcafe": "^3.3.0",
