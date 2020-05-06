@@ -43,7 +43,7 @@ testcafe chrome -c 4 src/__tests__/*.ts
   - An additional package for browserstack support
   - An additional package for reporting website generation
 - Supports chrome mobile emulation by specifying the mobile browser for chrome to emulate
-- Tests run in node unline Cypress (which runs in the browser) so you can leverage node and external files easily without having to dispatch code to execute in a seperate process like you do with Cypress which is cumbersom
+- Tests run in node unlike Cypress (which runs in the browser) so you can leverage node and external files easily without having to dispatch code to execute in a seperate process like you do with Cypress which is cumbersom
 
 ## Cons
 
